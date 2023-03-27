@@ -1,0 +1,219 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+.navbar{
+   left: 200px;
+   width: 70%;
+  
+
+  
+}
+
+
+
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+
+}
+
+
+.navbar {
+    background-color: black !important;
+}
+
+.nav-user {
+    margin-top: 100px;
+}
+
+.nav-item {
+    list-style: none !important;
+}
+
+
+
+.btn-icon {
+    width: 25px;
+    border-radius: 3rem;
+    margin-right: 10px;
+}
+
+.filmKonusu {
+    font-size: 2rem;
+    color: white;
+}
+
+.film {
+    width: 250px;
+    border-radius: .375rem;
+}
+
+.icon {
+    width: 2rem;
+    text-decoration: none;
+    margin-left: 5px;
+
+}
+.form-control{
+    background: transparent;
+    color: white;
+    border: none;
+    
+}
+.form-control:hover{
+    background-color: black;
+    color: white;
+}
+.sos-icon{
+width: 25px;
+}
+
+.icon-cizgi{
+    text-decoration: none;
+   
+}
+
+.hizmet-kodu{
+    width: 80px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    
+  
+}
+.user{
+    background-color: transparent;
+    color: white;
+    border-radius: 1rem;
+}
+
+option{
+    color: black;
+}
+
+
+footer div div div ul li {
+ list-style: none;
+}
+
+footer div div div ul li a {
+    color: gray;
+    text-decoration: none;
+   }
+@media (max-width: 1400px) {
+
+    .film-card {
+        margin-top: .5rem;
+        max-width: 90%;
+
+    }
+
+    .film {
+        width: 400px;
+        border-radius: .375rem;
+
+    }
+
+    @media (min-width: 1201px) and (max-width:1400px) {
+
+        .film-card {
+            margin-top: .5rem;
+            max-width: 90%;
+
+        }
+
+        .film {
+            width: 400px;
+            border-radius: .375rem;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width:1200px) {
+
+        .film-card {
+            margin-top: .5rem;
+            max-width: 90%;
+
+        }
+
+        .film {
+            width: 330px;
+            border-radius: .375rem;
+        }
+     
+    }
+
+    @media (min-width: 766px) and (max-width:991px) {
+
+        .film-card {
+            margin-top: .5rem;
+            max-width: 90%;
+
+        }
+
+        .film {
+            width: 350px;
+            border-radius: .375rem;
+        }
+    }
+
+    @media (min-width: 577px) and (max-width:765px) {
+
+        .film-card {
+            margin-top: .5rem;
+            max-width: 90%;
+
+        }
+
+        .film {
+            width: 330px;
+            border-radius: .375rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+
+        .film-card {
+            margin-top: .8rem;
+            max-width: 90%;
+
+        }
+
+        .film {
+            width: 380px;
+            border-radius: .375rem;
+            
+        }
+        .navbar{
+            left: 0 !important;
+        }
+        
+        .nav-link{
+             color:white;   
+        }
+       
+        .form-control{
+            background-color: white;
+        }
+    }
+
+}

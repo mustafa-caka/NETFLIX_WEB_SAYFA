@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    width: 100%;
+
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/loginarkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.loginlogo {
+    width: 100px;
+    margin-left: 10px;
+
+}
+
+.form-check-label {
+    color: gray;
+}
+
+.form-control {
+    border-radius: none;
+}
+
+.btn {
+    width: 100%;
+
+}
+
+.main-row {
+    height: 100vh;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    padding: 0;
+    
+}
+
+ul li {
+
+    list-style: none;
+}
+
+
+
+
+
+
+.back-col {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 75px 35px;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.login-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
